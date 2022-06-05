@@ -30,6 +30,8 @@ Code is provided as is. No direct help offered here or in DM if npm / node error
 
 ## Installation & Config
 
+Create an https://infura.io/ account if you haven't already,
+
 ```
 # Clone the repo
 git clone https://github.com/tomfuertes/loopring-sdk-bulk-send.git;
@@ -41,7 +43,19 @@ npm install;
 # create an env file
 cp .env.example .env
 
+# DISCLAIMER
+
+# L2 accounts are "cheap" to create. I'd suggest creating a new one to 
+# do your bulk sending from since this process requires you copy your private
+# key out of your waller / metamask / etc...
+# Loose steps to do so: 
+# - a) create a new MetaMask/Gamestop Wallet Account
+# - b) Transfer $50 to that account on L2 + Pay the activation fee
+# - c) Mint from your primary account / transfer all to your bulk account
+# - d) Run the program on your bulk account in case you accidentally expose your keys once copied out
+
 # edit .env with your private key, eth address, and infura project
+
 ```
 
 ## Contributions
