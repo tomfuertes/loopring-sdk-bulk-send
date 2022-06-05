@@ -24,6 +24,7 @@ Once you've done the "Installation & Config" section below:
 * "IsMobile any Navigator is undefined" is a message from the Loopring SDK running on node / not an issue.
 * `status: processing` means success as far as I can tell
 * if `code: undefined` or `message: undefined` do not show and instead show something else, it's likely an error and did not send
+* The `Select NFT by ID` question can be found at the top of an explorer page (e.g., `0x32f006a901505c8c015714cc4390f7f5447c1b07983b050c9cd92da90777584c` for [this NFT](https://explorer.loopring.io/nft/0xb6a1df588d2cb521030a5269d42a9c34f1ecaeab-0-0x92f7c57650b6dae91b8a8d73b1fb90f70b39358e-0x32f006a901505c8c015714cc4390f7f5447c1b07983b050c9cd92da90777584c-10))
 
 Code is provided as is. No direct help offered here or in DM if npm / node errors aren't approachable for you. Happy to link to resources that are more step by step as they're created.
 
