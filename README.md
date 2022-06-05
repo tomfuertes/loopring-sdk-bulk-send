@@ -2,7 +2,7 @@
 
 Bulk send NFTs w/ prompts
 
-![image](https://user-images.githubusercontent.com/1503991/172061695-140f7de4-4d42-4a45-b0b8-7f44843960dd.png)
+![ezgif-1-533c892cb3](https://user-images.githubusercontent.com/1503991/172061707-2daa037c-f105-45cb-bc54-add4b0478e5d.gif)
 
 ## First Time
 
