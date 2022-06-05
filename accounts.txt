@@ -1,0 +1,12 @@
+# one account per line
+# loops over lines
+# removes lines that start with # / aka comments
+# will try to trim up issues
+# you can try pasting whole twitter threads / not sure it will work
+vitalik.eth
+0xb6A1df588D2CB521030a5269D42A9c34f1ecAEaB
+jasldfnsdaf.eth
+'0x010439c51d7af413252db6e4246bc62e86a8debe',
+'0x02e6d9e4ae9fc93723c2ab464b990000e95ab572',
+'0x02e725b7e99091bd4ccbf15228384e160ecdf78f',
+'0x0490cb080afbc798c0882b65e3caf02c73f82b26',
