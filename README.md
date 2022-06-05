@@ -14,7 +14,7 @@ Once you've done the "Installation & Config" section below:
 
 - `Pick an nft: [Array of IDs from your account]` - Select the NFT ID from the view page on explorer corresponding to the NFT you want to send
 
-- `Pick a fee option USD $X.XX` - Select ETH or LRC to pay your fees. Estimated cost displayed in USDC.
+- `Pick a fee option USD $X.XX` - Select ETH or LRC to pay your fees. Estimated cost per send displayed in USDC.
 
 - `Transfer to Y accounts: [list of accounts]` - Defaults to `N` for no if you hit enter. Type `y<enter>` to run. Helpful if you selected a wrong fee or NFT or it is too high.
 
