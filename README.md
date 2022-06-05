@@ -9,7 +9,7 @@ Bulk send NFTs w/ prompts
 Once you've done the "Installation & Config" section below:
 
 1. `cd loopring-sdk-bulk-send`
-2. Paste your accounts to send to in accounts.txt (ideally one per line but there's some automagical helper functions that might let you ctrl+a,ctrl+v whole twitter threads / reddit comment pages and it'll just work)
+2. Paste your accounts to send to into `./accounts.txt` (ideally one per line but there's some automagical helper functions that might let you ctrl+a,ctrl+v whole twitter threads / reddit comment pages and it'll just work)
 3. `node bulk-send.js` will walk you through the following options:
 
 - `Pick an nft: [Array of IDs from your account]` - Select the NFT ID from the view page on explorer corresponding to the NFT you want to send
