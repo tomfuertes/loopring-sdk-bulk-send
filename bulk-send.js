@@ -68,7 +68,7 @@ const signatureKeyPairMock = async (accInfo, exchangeAddress) => {
   return eddsaKey;
 };
 
-// const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 (async () => {
   try {
@@ -230,8 +230,14 @@ const signatureKeyPairMock = async (accInfo, exchangeAddress) => {
       const transferResult = await userAPI.submitNFTInTransfer(opts);
       const { status, code, message } = transferResult;
       // debug("transferResult", transferResult);
+      
+      const res = {account, status};
+      if (code) res.code = code;
+      if (message) res.message = message;      
 
-      console.log("Transfer Result:", { account, status, code, message });
+      console.log("Transfer Result:", res);
+      
+      await sleep(250);
     }
 
     //
