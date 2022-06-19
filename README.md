@@ -22,7 +22,7 @@ cp .env.example .env
 ### DISCLAIMER ###
 # L2 accounts are "cheap" to create. I'd suggest creating a new one to 
 # do your bulk sending from since this process requires you copy your private
-# key out of your waller / metamask / etc...
+# key out of your wallet / metamask / etc...
 # Loose steps to do so: 
 # - a) create a new MetaMask/Gamestop Wallet Account
 # - b) Transfer $50 to that account on L2 + Pay the activation fee
