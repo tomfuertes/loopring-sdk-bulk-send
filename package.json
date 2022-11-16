@@ -5,14 +5,14 @@
     "dev": "nodemon --watch *.js --exec 'npm run lint && npm start'"
   },
   "dependencies": {
-    "@loopring-web/loopring-sdk": "^2.0.12",
-    "dotenv": "^16.0.1",
+    "@loopring-web/loopring-sdk": "^2.1.16",
+    "dotenv": "^16.0.3",
     "enquirer": "^2.3.6",
     "truffle-privatekey-provider": "^1.5.0",
-    "web3": "^1.7.3"
+    "web3": "^1.8.1"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
-    "nodemon": "^2.0.16"
+    "eslint": "^8.27.0",
+    "nodemon": "^2.0.20"
   }
 }
