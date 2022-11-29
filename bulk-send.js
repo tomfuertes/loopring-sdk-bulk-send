@@ -95,6 +95,8 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
           .map((line) => line.replace(/^\.|\.$/gim, "").trim())
           // filter only for lines remaining with .eth or 0x
           .filter((line) => line.endsWith(".eth") || line.startsWith("0x"))
+          // force lowercase b/c ens is angsty
+          .map((line) => line.toLowerCase())
       ),
     ];
 
